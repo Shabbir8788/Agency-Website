@@ -1,0 +1,7 @@
+
+#step1
+***Let's setup colors for the projects from figma file
+***Let's use the colors
+
+#step2
+***setup fonts
