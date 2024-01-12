@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import logo from "../assets/logo.png";
 import { Link } from "react-scroll";
+import "../App.css";
 
 // react icons
 import { FaXmark, FaBars } from "react-icons/fa6";
@@ -24,6 +25,7 @@ const Navbar = () => {
     };
 
     window.addEventListener("scroll", handleScroll);
+
     return () => {
       window.addEventListener("scroll", handleScroll);
     };
@@ -45,7 +47,7 @@ const Navbar = () => {
       <nav
         className={`py-4 lg:px-14 px-4 ${
           isSticky
-            ? "sticky top-0 left-0 right-0 border-b text-white duration-300"
+            ? "sticky top-0 left-0 right-0 border bg-white duration-300"
             : ""
         }`}
       >

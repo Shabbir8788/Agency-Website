@@ -11,6 +11,7 @@ const Home = () => {
             <div>
               <img src={banner1} alt="" />
             </div>
+
             {/* {Hero Text} */}
             <div className="md:w-1/2">
               <h1 className="text-5xl font-semibold mb-4 text-neutralDGrey md:w-3/4 leading-snug">
