@@ -49,7 +49,6 @@ const Services = () => {
           <img src={company2} alt="" />
           <img src={company3} alt="" />
           <img src={company4} alt="" />
-          <img src={company4} alt="" />
           <img src={company5} alt="" />
           <img src={company6} alt="" />
           <img src={company7} alt="" />
